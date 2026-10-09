@@ -81,10 +81,21 @@ body {
   cursor: default;
 }
 
-.item svg {
+.item svg,
+.item img {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+.item img {
+  object-fit: contain;
+  /* Product shots often sit on light grey: lift it to white, then multiply
+     so what is left melts into the page. */
+  filter: brightness(1.04) contrast(1.04);
+  mix-blend-mode: multiply;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 @media (prefers-reduced-motion: reduce) {

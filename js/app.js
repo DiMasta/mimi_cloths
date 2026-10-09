@@ -36,14 +36,25 @@
     track.setAttribute("aria-label", part.name);
 
     var vb = Garments.viewBoxes[part.id].split(" ");
+    var drawingAspect = vb[2] + " / " + vb[3];
     var items = part.items.map(function (item, i) {
       var el = document.createElement("div");
       el.className = "item";
-      el.style.setProperty("--ar", vb[2] + " / " + vb[3]);
       el.title = item.brand + " — " + item.name;
       el.setAttribute("role", "img");
       el.setAttribute("aria-label", item.brand + " " + item.name);
-      el.innerHTML = Garments.render(item);
+      if (item.image) {
+        el.style.setProperty("--ar", part.photoAspect || "4 / 5");
+        el.appendChild(photo(item, function () {
+          // Photo failed to load: fall back to the drawing.
+          el.style.setProperty("--ar", drawingAspect);
+          el.innerHTML = Garments.render(item);
+          layoutRow(row);
+        }));
+      } else {
+        el.style.setProperty("--ar", drawingAspect);
+        el.innerHTML = Garments.render(item);
+      }
       el.addEventListener("click", function () { scrollToItem(row, i, true); });
       track.appendChild(el);
       return el;
@@ -56,6 +67,17 @@
     var row = { track: track, items: items, selected: selected, wheel: 0, lockUntil: 0 };
     bindRow(row);
     return row;
+  }
+
+  function photo(item, onError) {
+    var img = document.createElement("img");
+    img.src = item.image;
+    img.alt = "";
+    img.decoding = "async";
+    img.draggable = false;
+    img.referrerPolicy = "no-referrer";
+    img.addEventListener("error", onError, { once: true });
+    return img;
   }
 
   // Pad both ends so the first and last pieces can sit dead centre.

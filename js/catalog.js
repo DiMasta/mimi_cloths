@@ -1,11 +1,13 @@
 // Curated pieces from top-of-the-shelf houses, ordered top to bottom.
-// `shape` picks an illustration from garments.js; `color` tints it.
+// `image` is a product photo URL; without one (or if it fails to load) the
+// piece is drawn from `shape` in garments.js, tinted by `color`.
 window.Catalog = {
   parts: [
     {
       id: "headwear",
       name: "Headwear",
       grow: 0.62,
+      photoAspect: "1 / 1",
       items: [
         { brand: "Loro Piana", name: "Cashmere Baseball Cap", shape: "cap", color: "#c9b796" },
         { brand: "Acne Studios", name: "Ribbed Wool Beanie", shape: "beanie", color: "#e7b7bc" },
@@ -60,6 +62,7 @@ window.Catalog = {
       id: "footwear",
       name: "Footwear",
       grow: 0.55,
+      photoAspect: "1 / 1",
       items: [
         { brand: "Common Projects", name: "Achilles Low Sneaker", shape: "sneaker", color: "#f7f6f2", accent: "#b8913c" },
         { brand: "Gucci", name: "Horsebit Leather Loafer", shape: "loafer", color: "#3c2618", accent: "#c9a24a" },
