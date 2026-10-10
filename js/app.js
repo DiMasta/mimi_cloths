@@ -55,7 +55,12 @@
         el.style.setProperty("--ar", drawingAspect);
         el.innerHTML = Garments.render(item);
       }
-      el.addEventListener("click", function () { scrollToItem(row, i, true); });
+      // Tap a side piece to bring it to the centre; tap the centred piece
+      // to open it in the shop.
+      el.addEventListener("click", function () {
+        if (i === row.selected && item.url) window.open(item.url, "_blank", "noopener");
+        else scrollToItem(row, i, true);
+      });
       track.appendChild(el);
       return el;
     });

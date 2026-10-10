@@ -78,7 +78,6 @@ body {
 
 .item.is-selected {
   opacity: 1;
-  cursor: default;
 }
 
 .item svg,
