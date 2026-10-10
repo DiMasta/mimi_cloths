@@ -1,0 +1,497 @@
+[
+ {
+  "domain": "shop-us.doverstreetmarket.com",
+  "ok": true,
+  "count": 999,
+  "vendors": [
+   "Johnny Valentine",
+   "Bernard James",
+   "Martine Ali",
+   "Denim Tears",
+   "Prounis",
+   "Bea Bongiasca",
+   "Moritz Glik",
+   "Seb Brown",
+   "Doublet",
+   "Our Legacy",
+   "Lady White",
+   "A.Presse",
+   "Brain Dead",
+   "Demon",
+   "Jordan",
+   "New Balance",
+   "Vivienne Westwood",
+   "Walter Van Beirendonck",
+   "Kiko Kostadinov",
+   "Hoka",
+   "Birkenstock",
+   "CDG Shirt",
+   "Ashley Williams",
+   "Stüssy",
+   "Porter-Yoshida & Co.",
+   "Porter",
+   "Rick Owens",
+   "Sacai",
+   "Jw Anderson",
+   "Westfall",
+   "Shushu Tong",
+   "Sonia Carrasco",
+   "Melitta Baumeister",
+   "Dsm Kei Ninomiya",
+   "Black CDG",
+   "Dries Van Noten",
+   "Jean Paul Gaultier",
+   "Junya Watanabe",
+   "August Barron",
+   "Simone Rocha"
+  ]
+ },
+ {
+  "domain": "shop.doverstreetmarket.com",
+  "ok": true,
+  "count": 1000,
+  "vendors": [
+   "Dries Van Noten",
+   "Bottega Veneta",
+   "B.Eautiful",
+   "Pandora",
+   "Palace",
+   "New Balance",
+   "The Row",
+   "Adidas",
+   "Kiko Kostadinov",
+   "Stüssy",
+   "Simone Rocha",
+   "CDG3",
+   "Sacai",
+   "Rick Owens",
+   "Prada",
+   "Our Legacy",
+   "Junya Watanabe",
+   "On-Running",
+   "Bunney",
+   "Andrew Bunney",
+   "Dover Street Market London",
+   "Denim Tears",
+   "Oakley",
+   "Fugazi",
+   "A.Presse",
+   "Walter Van Beirendonck",
+   "Dsm Kei Ninomiya",
+   "Jw Man",
+   "Always Do What You Should Do",
+   "Daniela Gregis",
+   "Aman",
+   "Nike",
+   "Undercover",
+   "CDG Black Collection",
+   "Dr. Martens",
+   "Evan Kinori",
+   "Rassvet",
+   "August Barron",
+   "CDG Shirt",
+   "Willy Chavarria"
+  ]
+ },
+ {
+  "domain": "www.commonprojects.com",
+  "ok": false,
+  "error": "fetch failed"
+ },
+ {
+  "domain": "www.therow.com",
+  "ok": true,
+  "count": 1000,
+  "vendors": [
+   "The Row",
+   "Anonymous",
+   "Zoran",
+   "Egyptian Assuit",
+   "Mariano Fortuny",
+   "Madame Grès",
+   "Yohji Yamamoto"
+  ]
+ },
+ {
+  "domain": "khaite.com",
+  "ok": true,
+  "count": 971,
+  "vendors": [
+   "KHAITE",
+   "Khaite"
+  ]
+ },
+ {
+  "domain": "toteme.com",
+  "ok": true,
+  "count": 1000,
+  "vendors": [
+   "Toteme - INT"
+  ]
+ },
+ {
+  "domain": "www.toteme-studio.com",
+  "ok": true,
+  "count": 1000,
+  "vendors": [
+   "Toteme - INT"
+  ]
+ },
+ {
+  "domain": "www.drakes.com",
+  "ok": true,
+  "count": 1000,
+  "vendors": [
+   "Drakes - UK/ROW",
+   "Drakes - AW26 Transitional",
+   "Drakes - Archive"
+  ]
+ },
+ {
+  "domain": "www.sunspel.com",
+  "ok": true,
+  "count": 1000,
+  "vendors": [
+   "Sunspel"
+  ]
+ },
+ {
+  "domain": "www.nomanwalksalone.com",
+  "ok": true,
+  "count": 1000,
+  "vendors": [
+   "No Man Walks Alone",
+   "Rota",
+   "G. Inglese",
+   "Beams Plus",
+   "Kaptain Sunshine",
+   "Foret",
+   "Paratodo",
+   "3sixteen",
+   "Earth\\Studies",
+   "Mooncastle",
+   "Kardo",
+   "De Bonne Facture",
+   "Document",
+   "blurhms",
+   "Wythe",
+   "Okochi Meriyasu",
+   "Merz b. Schwanen",
+   "Portuguese Flannel",
+   "Frank Leder",
+   "Sage de Cret",
+   "GRP",
+   "Paraboot",
+   "Mittan",
+   "IKIJI",
+   "Tie Your Tie",
+   "ts(s)",
+   "Bigi",
+   "CAMO",
+   "Doppiaa",
+   "Seuvas",
+   "The Souvenir Shop",
+   "Informale",
+   "Samuel Gassmann",
+   "La Botte Gardiane",
+   "Fujito",
+   "Seagreen",
+   "Monitaly",
+   "Lesca",
+   "Neithers",
+   "Found Feather"
+  ]
+ },
+ {
+  "domain": "havenshop.com",
+  "ok": true,
+  "count": 0,
+  "vendors": []
+ },
+ {
+  "domain": "www.notre-shop.com",
+  "ok": true,
+  "count": 995,
+  "vendors": [
+   "Satisfy",
+   "Aaron Levine",
+   "Estudio Niksen",
+   "UGG",
+   "SALOMON ADVANCED",
+   "Nike",
+   "Jordan",
+   "Bare Knuckles",
+   "A. Presse",
+   "Vans",
+   "ASICS",
+   "HOKA",
+   "mfpen",
+   "Village PM",
+   "Tom Wood",
+   "Paracia",
+   "Levi's®",
+   "Arc'teryx",
+   "Arc’teryx Veilance",
+   "GANNI",
+   "Entire Studios",
+   "Birkenstock",
+   "Serge Denimes",
+   "Les Tien",
+   "TODO PASA",
+   "Notre",
+   "Tarvas",
+   "Lady White Co.",
+   "The North Face",
+   "Basketcase Gallery",
+   "Dr. Martens",
+   "Converse",
+   "KIKO KOSTADINOV",
+   "New Balance",
+   "Comme des Garçons Parfum",
+   "adidas",
+   "District Vision",
+   "Akila",
+   "Gabar",
+   "Portal"
+  ]
+ },
+ {
+  "domain": "www.johnelliott.co",
+  "ok": true,
+  "count": 238,
+  "vendors": [
+   "John Elliott - Deckers",
+   "John Elliott"
+  ]
+ },
+ {
+  "domain": "www.fearofgod.com",
+  "ok": true,
+  "count": 973,
+  "vendors": [
+   "New Era",
+   "ESSENTIALS",
+   "Fear of God",
+   "Fear of God Loungewear",
+   "FEAR OF GOD ATHLETICS",
+   "Route"
+  ]
+ },
+ {
+  "domain": "www.aimeleondore.com",
+  "ok": true,
+  "count": 871,
+  "vendors": [
+   "Aimé Leon Dore",
+   "Rise.ai"
+  ]
+ },
+ {
+  "domain": "kith.com",
+  "ok": true,
+  "count": 1000,
+  "vendors": [
+   "adidas",
+   "Converse",
+   "Jordan",
+   "Saucony",
+   "New Balance",
+   "Nike",
+   "Our Legacy",
+   "Kith",
+   "Kith Kids",
+   "Kith Women",
+   "Kith Baby",
+   "Kith Treats",
+   "Keen",
+   "Birkenstock",
+   "ASICS",
+   "Salomon",
+   "Rick Owens",
+   "Black Suede Studio",
+   "VINNY's",
+   "On Running",
+   "The North Face",
+   "Houseplant",
+   "Ordinary Habit",
+   "Willy Chavarria",
+   "The Line by K",
+   "Super Smalls",
+   "Prada",
+   "Miaou",
+   "Ksubi",
+   "KHAITE x Oliver Peoples",
+   "FREECITY",
+   "Diesel",
+   "CDG Pocket",
+   "Casablanca",
+   "by Parra",
+   "Aya Muse",
+   "Alexis Bittar",
+   "Alexander Wang",
+   "Agolde",
+   "Solovair"
+  ]
+ },
+ {
+  "domain": "www.lemaire.fr",
+  "ok": true,
+  "count": 876,
+  "vendors": [
+   "LEMAIRE"
+  ]
+ },
+ {
+  "domain": "www.officinegenerale.com",
+  "ok": true,
+  "count": 494,
+  "vendors": [
+   "Officine Générale",
+   "Asahi",
+   "New Balance",
+   "Cabana Gallery",
+   "Maw Creation Et Conseil",
+   "Common Projects",
+   "Garrett Leight"
+  ]
+ },
+ {
+  "domain": "www.gabrielahearst.com",
+  "ok": true,
+  "count": 1000,
+  "vendors": [
+   "GABRIELA HEARST",
+   "Gabriela Hearst",
+   "GH"
+  ]
+ },
+ {
+  "domain": "thefrankieshop.com",
+  "ok": true,
+  "count": 1000,
+  "vendors": [
+   "The Frankie Shop",
+   "Beaufille",
+   "Loulou de Saison",
+   "Auver Fit",
+   "Low Classic",
+   "Maeden",
+   "By Malene Birger",
+   "Sportmax",
+   "Gudu",
+   "Darkpark",
+   "TheLatest",
+   "Haikure",
+   "Uoov",
+   "W & J",
+   "Bevza",
+   "samsoe",
+   "Completedworks",
+   "Coperni",
+   "Karen Wazen",
+   "Tekla",
+   "A.Emery",
+   "Pieces Uniques",
+   "CO",
+   "Otiumberg",
+   "Lido",
+   "Room K",
+   "Swedish Stockings",
+   "Christopher Esber",
+   "Beside You",
+   "Amomento",
+   "Nave",
+   "Stage",
+   "Amish Supplies",
+   "United C",
+   "Murr",
+   "Blue I-D",
+   "St. Agni",
+   "Le Monde Beryl",
+   "Mansur Gavriel",
+   "POSSE"
+  ]
+ },
+ {
+  "domain": "www.anine-bing.com",
+  "ok": false,
+  "error": "fetch failed"
+ },
+ {
+  "domain": "www.grenson.com",
+  "ok": false,
+  "error": "HTTP 403"
+ },
+ {
+  "domain": "www.antonioli.eu",
+  "ok": true,
+  "count": 1000,
+  "vendors": [
+   "JUNYA WATANABE",
+   "UNDERCOVER",
+   "NVL GARDE",
+   "YOHJI YAMAMOTO",
+   "COMME DES GARCONS HOMME",
+   "ACNE STUDIOS",
+   "A DICIANNOVEVENTITRE",
+   "LOEWE",
+   "GUCCI",
+   "ZIGGY CHEN",
+   "SIMONE ROCHA",
+   "ANN DEMEULEMEESTER",
+   "C.P. COMPANY",
+   "NICOLO CESCHI BERRINI",
+   "MONCLER GENIUS",
+   "RICK OWENS",
+   "ANDREA YA AQOV",
+   "ALEXANDER DIGENOVA",
+   "CHLOÉ",
+   "CARHARTT WIP",
+   "KNWLS",
+   "TOM FORD",
+   "PRADA",
+   "S MAX MARA",
+   "MAX MARA",
+   "CANADA GOOSE",
+   "BALENCIAGA",
+   "BURBERRY",
+   "ALEKSANDR MANAMIS",
+   "TOTEME",
+   "OUR LEGACY",
+   "LEMAIRE",
+   "SSSTEIN",
+   "MAISON MIHARA YASUHIRO",
+   "DEMON",
+   "SEBBIE",
+   "YA YI",
+   "MIU MIU",
+   "COMME DES GARCONS",
+   "MONCLER"
+  ]
+ },
+ {
+  "domain": "www.bode.com",
+  "ok": true,
+  "count": 1000,
+  "vendors": [
+   "BODE New York"
+  ]
+ },
+ {
+  "domain": "www.walesbonner.net",
+  "ok": true,
+  "count": 120,
+  "vendors": [
+   "Wales Bonner"
+  ]
+ },
+ {
+  "domain": "www.amiri.com",
+  "ok": true,
+  "count": 996,
+  "vendors": [
+   "AMIRI",
+   "Amiri"
+  ]
+ }
+]
