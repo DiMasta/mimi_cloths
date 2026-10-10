@@ -73,6 +73,8 @@ body {
   cursor: pointer;
   opacity: 0.28;
   transition: opacity 0.35s ease;
+  /* No double-tap-to-zoom, so a double tap reaches the page. */
+  touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
 }
 

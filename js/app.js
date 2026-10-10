@@ -2,6 +2,7 @@
   var parts = Catalog.parts;
   var root = document.getElementById("outfit");
   var rows = [];
+  var DOUBLE_TAP_MS = 350;
 
   // The chosen outfit lives in the URL hash (e.g. #0.4.1.2.4) so a look
   // survives reloads and can be shared.
@@ -55,11 +56,19 @@
         el.style.setProperty("--ar", drawingAspect);
         el.innerHTML = Garments.render(item);
       }
-      // Tap a side piece to bring it to the centre; tap the centred piece
-      // to open it in the shop.
+      // Tap a piece to bring it to the centre; double-tap (or double-click)
+      // it to open it in the shop. Double taps are detected by hand because
+      // mobile browsers don't reliably fire dblclick.
+      var lastTap = 0;
       el.addEventListener("click", function () {
-        if (i === row.selected && item.url) window.open(item.url, "_blank", "noopener");
-        else scrollToItem(row, i, true);
+        var now = Date.now();
+        if (now - lastTap < DOUBLE_TAP_MS && item.url) {
+          lastTap = 0;
+          window.open(item.url, "_blank", "noopener");
+          return;
+        }
+        lastTap = now;
+        scrollToItem(row, i, true);
       });
       track.appendChild(el);
       return el;
